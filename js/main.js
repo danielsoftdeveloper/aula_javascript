@@ -1,4 +1,4 @@
-// aula 01   
+// aula 01
 /* alert(" primeiro script da página"); */
 
 // aula 02
@@ -30,6 +30,43 @@ console.log(idade);
 console.log(frase.toLowerCase()); */
 
 //aula 06 multiplicação
-var n1 = 20;
+/* var n1 = 20;
 var n2 = 30;
-console.log('resulado', n1 * n2);
+console.log('resulado', n1 * n2); */
+
+// Aula 07 vetores
+/* var lista = ["maça", "pêra", "larranja"];
+ console.log(lista); */ // imprimi a lista
+/* 
+console.log(lista[1]); // imprimi a pera segunda posição, (começa com zero(0)).
+alert(lista[1]); // imprimi pêra */
+
+// Aula 08 adicionar no vetor
+/* var lista = ["maça", "pêra", "larranja"];
+lista.push("uva");
+console.log(lista); */
+
+// Aula 09 retirar do vetor um elemento
+var lista = ["maça", "pêra", "larranja"];
+lista.push("uva"); // adiciona uva na lista
+// var elemento;
+//elemento = lista.pop(); // remove ultimo da lista e armaena em elemneto.
+//console.log(lista); // mostra a lista se larranja
+//console.log(elemento); // mostra elemento retirado da lista */
+//console.log(lista.length) //mostra o  tamanho da lista atual.
+//console.log(lista.reverse()) // mostra a lista ao contrário.
+
+//Aula 10 (String).
+
+/* console.log(lista.toString()); // mostra a lista em forma de string.
+console.log(lista);
+ */
+/* console.log(lista[0]); // mostra o primeiro item maça da lista.
+console.log(lista.toString()[0]); // mostra primeira leta m. */
+
+// join
+
+console.log(lista.join(" - ")); // mostra a lista separados com item desejado:  maça - pera - larranja - uva
+console.log(lista.join(" , ")); // mostra a lista separados com item desejado:  maça , pera , larranja , uva
+console.log(lista.join(" ")); // mostra a lista separados com item desejado:  maça pera larranja uva
+console.log(lista.join(" * ")); // mostra a lista separados com item desejado:  maça * pera * larranja * uva
