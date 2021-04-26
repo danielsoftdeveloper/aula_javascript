@@ -79,11 +79,36 @@ var fruta = {nome:"maça" , cor:"vermelha"};
 console.log(fruta.nome);
 alert(fruta.cor);
  */
-
+/* 
 // aula 13 Dicionário com um coleção de elementos
 var frutas = [{nome:"maça" , cor:"vermelha"}, {nome:"uva" , cor:"roxa"}];
 console.log(frutas);
 console.log(frutas[0].nome);
 console.log(frutas[0].cor)
 //alert(frutas[1].nome);
-//alert(frutas[1].cor);
+//alert(frutas[1].cor); */
+
+// aula 14 estrutura de repetição if
+/* var idade = 18; */
+/* var idade = prompt("Qual a sua idade? ")
+if(idade >= 18){
+    alert("Maior de idade");
+}else{
+    alert("Menor de idade");
+}
+ */
+
+// aula 15 estrutura de repetição while.
+/* 
+var count = 0;
+while(count < 5){
+    console.log(count)
+    count++;
+} */
+
+
+// aula 16 estrutura de repetição for.
+var count;
+for( count = 0; count < 5; count++){
+    alert(count);
+}
