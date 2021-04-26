@@ -1,14 +1,79 @@
+//Aula 19 função validação
+
+// 19.2 segunda forma de fazer.
+/* var validar; */
+var validar; // utilizando variável global.
+
+function validaIdade(idade) {
+  if (idade >= 18) {
+    return (validar = true);
+  } else {
+    return (validar = false);
+  }
+}
+
+var idade = prompt("Qual sua idade");
+validaIdade(idade);
+console.log("Você é maior de idade? ", validar);
+
+// 19.1 primeira forma de fazer
+/* var idade;
+var resultado;
+
+function validaIdade(idade) {
+  var validar;
+  if (idade >= 18) {
+    validar = true;
+  } else {
+    validar = false;
+  }
+  return validar;
+} 
+
+idade = prompt("Qual a sua idade?");
+
+resultado = validaIdade(idade);
+
+console.log("você é maior de idade? " + resultado); */
+
+//aula 18 Função replace.
+// aula 18.2
+/* function setReplace(frase, nome, novo_nome){
+    return frase.replace(nome, novo_nome)
+}
+
+alert(setReplace("Vai Argentina", "Argentina", "Brasil"));
+console.log(setReplace("Vai Argentina", "Argentina", "Brasil"));
+ */
+/*  aula 18.1
+var frase = " Vai Brasil!";
+function setReplace(frase, novo_nome){
+    return frase.replace("Brasil", novo_nome);
+}
+console.log("frase inicial");
+console.log(frase);
+alert(setReplace(frase, "Galo"));
+ */
+
+//aula 18 Função soma
+/* function soma( n1, n2){
+    return n1 + n2;
+}
+
+alert(soma(5, 15)); // com alert.
+console.log(soma(5, 15)); // no console.
+ */
 
 //aula 17 trabalhando com Datas
-var d = new Date();
+//var d = new Date();
 //alert(d);
 //alert(d.getMonth()+1);
 //alert(d.getMinutes());
+/* 
 console.log("Dia do mês : ",d.getDate());
 console.log("Horas: ",d.getHours());
 console.log("Minutos: ",  d.getMinutes());
-console.log("Segundos: ",d.getSeconds());
-
+console.log("Segundos: ",d.getSeconds()); */
 
 // aula 16 estrutura de repetição for.
 /* var count;
@@ -71,11 +136,11 @@ console.log(lista.toString()[0]); // mostra primeira leta m. */
 // var elemento;
 //elemento = lista.pop(); // remove ultimo da lista e armaena em elemneto.
 //console.log(lista); // mostra a lista se larranja
-//console.log(elemento); // mostra elemento retirado da lista 
+//console.log(elemento); // mostra elemento retirado da lista
 //console.log(lista.length) //mostra o  tamanho da lista atual.
 //console.log(lista.reverse()) // mostra a lista ao contrário.
 
-// Aula 08 adicionar no vetor
+// Aula 08 adicionar no vetor (push)
 /* var lista = ["maça", "pêra", "larranja"];
 lista.push("uva");
 console.log(lista); */
