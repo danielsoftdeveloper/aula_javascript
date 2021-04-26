@@ -108,7 +108,18 @@ while(count < 5){
 
 
 // aula 16 estrutura de repetição for.
-var count;
+/* var count;
 for( count = 0; count < 5; count++){
     alert(count);
-}
+} */
+
+
+//aula 17 trabalhando com Datas
+var d = new Date();
+//alert(d);
+//alert(d.getMonth()+1);
+//alert(d.getMinutes());
+
+console.log(d.getHours());
+console.log(d.getMinutes());
+console.log(d.getSeconds());
