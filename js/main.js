@@ -47,8 +47,8 @@ lista.push("uva");
 console.log(lista); */
 
 // Aula 09 retirar do vetor um elemento
-var lista = ["maça", "pêra", "larranja"];
-lista.push("uva"); // adiciona uva na lista
+//var lista = ["maça", "pêra", "larranja"];
+//lista.push("uva"); // adiciona uva na lista
 // var elemento;
 //elemento = lista.pop(); // remove ultimo da lista e armaena em elemneto.
 //console.log(lista); // mostra a lista se larranja
@@ -64,9 +64,26 @@ console.log(lista);
 /* console.log(lista[0]); // mostra o primeiro item maça da lista.
 console.log(lista.toString()[0]); // mostra primeira leta m. */
 
-// join
-
+// aula 11 (join)
+/* 
 console.log(lista.join(" - ")); // mostra a lista separados com item desejado:  maça - pera - larranja - uva
 console.log(lista.join(" , ")); // mostra a lista separados com item desejado:  maça , pera , larranja , uva
 console.log(lista.join(" ")); // mostra a lista separados com item desejado:  maça pera larranja uva
 console.log(lista.join(" * ")); // mostra a lista separados com item desejado:  maça * pera * larranja * uva
+ */
+
+// aula 12 Dicionário
+/* 
+var fruta = {nome:"maça" , cor:"vermelha"};
+//console.log(fruta);
+console.log(fruta.nome);
+alert(fruta.cor);
+ */
+
+// aula 13 Dicionário com um coleção de elementos
+var frutas = [{nome:"maça" , cor:"vermelha"}, {nome:"uva" , cor:"roxa"}];
+console.log(frutas);
+console.log(frutas[0].nome);
+console.log(frutas[0].cor)
+//alert(frutas[1].nome);
+//alert(frutas[1].cor);
