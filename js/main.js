@@ -1,8 +1,63 @@
+// aula 22
+
+
+function load(){
+  alert("Página carregada!")
+}
+
+function mudarTexto(elemento){ // passa o próprio elemento
+  
+  elemento.innerHTML = "Obrigado por passar o mouse.";
+
+}
+
+function voltar(elemento){ //passa o próprio elemento
+
+ elemento.innerHTML = "Passe o mouse aqui";
+
+}
+
+function funcaoChange(elemento){
+  console.log(elemento.value);
+}
+
+
+//Aula 21
+
+function clicou() {
+  document.getElementById("agradecimento").innerHTML =
+    "<b>Obrigado por clicar!</b>"; // colocar negrito
+  //console.log(document.getElementById("agradecimento"));
+}
+
+function redirecionar() {
+  window.open("https://cubovirtual.com.br"); // abre em outra aba.
+  // window.location.href ="https://www.google.com.br/"; //abre na mesma aba.
+}
+/* 
+function mudarTexto(){
+  document.getElementById("mousemove").innerHTML ="Obrigado por passar o mouse.";
+ // alert ("trocar texto");
+
+}
+
+function voltar(){
+  document.getElementById("mousemove").innerHTML ="Passe o mouse aqui.";
+
+} */
+
+/* //Aula 20 button com função onclick 
+
+function clicou(){
+  alert("Obrigado por clicar!")
+}
+ */
+
 //Aula 19 função validação
 
 // 19.2 segunda forma de fazer.
 /* var validar; */
-var validar; // utilizando variável global.
+/* var validar; // utilizando variável global.
 
 function validaIdade(idade) {
   if (idade >= 18) {
@@ -15,7 +70,7 @@ function validaIdade(idade) {
 var idade = prompt("Qual sua idade");
 validaIdade(idade);
 console.log("Você é maior de idade? ", validar);
-
+ */
 // 19.1 primeira forma de fazer
 /* var idade;
 var resultado;

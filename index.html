@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,10 +9,24 @@
 
     <title>Página com JavaScript</title>
 </head>
-<body>
+
+<body onload="load()">
 
     <h1>Página com JavaScript</h1>
+    <button type="button" onclick="clicou()">Mostrar alerta</button>
+    <!-- <h3 id="agradecimento"></h3> -->
+    <p id="agradecimento"></p>
+    <button onclick="redirecionar()">Redirecionar</button>
+    <!-- <p id="mousemove" onmouseover="mudarTexto()" onmouseout="voltar()">Passe o mouse aqui</p> -->
+    <p id="mousemove" onmouseover="mudarTexto(this)" onmouseout="voltar(this)">Passe o mouse aqui</p>
+    <p id="mousemove2" onmouseover="mudarTexto(this)" onmouseout="voltar(this)">Passe o mouse aqui</p>
+    <p id="mousemove3" onmouseover="mudarTexto(this)" onmouseout="voltar(this)">Passe o mouse aqui</p>
 
-    
+    <select onchange="funcaoChange(this)">
+        <option value="1">Valor 1</option>
+        <option value="2">valor 2</option>
+        <option value="3">valor 3</option>
+    </select>
 </body>
+
 </html>
